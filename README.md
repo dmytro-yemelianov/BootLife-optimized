@@ -8,6 +8,9 @@
 ![Platform](https://img.shields.io/badge/platform-x86%20BIOS%20real%20mode-indigo?style=flat-square)
 ![Assembler](https://img.shields.io/badge/asm-NASM-orange?style=flat-square)
 ![License](https://img.shields.io/badge/license-ISC-blue?style=flat-square)
+<br/>
+[![Patreon](https://img.shields.io/badge/Patreon-f96854?style=flat-square&logo=patreon&logoColor=white)](https://www.patreon.com/0xAX)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/0xAX)
 
 <img src="assets/life.gif" alt="BootLife running in QEMU" width="900">
 </div>
