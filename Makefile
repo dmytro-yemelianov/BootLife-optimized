@@ -1,12 +1,36 @@
-.DEFAULT_GOAL := life.img
+.DEFAULT_GOAL := all
+VARIANT ?= rolling_sliding
+NASM ?= nasm
+QEMU ?= qemu-system-i386
+PYTHON ?= python3
+VARIANTS := sliding rolling_sliding rolling_lut sliding_lut sliding_lut_word rolling_bits
 
-life.img: life.asm
-	nasm -f bin -o $@ $<
+ifeq ($(filter $(VARIANT),$(VARIANTS)),)
+$(error Unknown VARIANT: $(VARIANT). Choose one of $(VARIANTS))
+endif
 
-.PHONY: run
-run: life.img
-	qemu-system-i386 -drive file=life.img,format=raw,if=floppy
+.PHONY: all run upstream verify check clean
+all: build/$(VARIANT).img
 
-.PHONY: clean
+build:
+	mkdir -p build
+
+build/%.img: final/life.%.asm | build
+	$(NASM) -f bin -o $@ $<
+
+build/upstream.img: life.asm | build
+	$(NASM) -f bin -o $@ $<
+
+upstream: build/upstream.img
+
+run: all
+	$(QEMU) -cpu pentium -drive file=build/$(VARIANT).img,format=raw,if=floppy
+
+verify:
+	$(PYTHON) verify_release.py
+
+check: | build
+	$(PYTHON) experiment.py --cpu pentium --variants $(VARIANTS) --generations 5 --skip-benchmark --output build/checks.json
+
 clean:
-	rm -f life.img
+	rm -rf build __pycache__

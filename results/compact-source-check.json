@@ -1,0 +1,63 @@
+{
+  "nasm": "NASM version 3.02 compiled on Jun 29 2026",
+  "sources": {
+    "life.rolling.asm": {
+      "lines": 276,
+      "source_bytes": 5390,
+      "source_sha256": "c60dde304ead9ab5f77d9c587a563414a87db9a2108f5dbe9c589a68a87dac7b"
+    },
+    "life.rolling.compact.asm": {
+      "lines": 135,
+      "source_bytes": 5725,
+      "source_sha256": "dd143639d5ffddbaecb663738d7017f668285471f5132e44fe2084d20c49a7b5"
+    }
+  },
+  "comparisons": [
+    {
+      "flags": [],
+      "identical": true,
+      "image_sha256": "3d903395d9c3a61822d42a4b9254e9a2920f429795ff469747d65af05e4b9820"
+    },
+    {
+      "flags": [
+        "-DSEED=0x1234"
+      ],
+      "identical": true,
+      "image_sha256": "64452f005f61ff2a512dd981424dec8667b51946a0c0fa87aa91320b004abd51"
+    },
+    {
+      "flags": [
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "identical": true,
+      "image_sha256": "3eee486f4f650728935bb0d865c472414f828b887bc24a1126c319d021b012a8"
+    },
+    {
+      "flags": [
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "identical": true,
+      "image_sha256": "ec5234f29390df67d5cdfda31566f22f4c501fede8b73ca08bd082bf188f09cf"
+    },
+    {
+      "flags": [
+        "-DSPARKS=1",
+        "-DGLIDERS=0",
+        "-DSEED=0"
+      ],
+      "identical": true,
+      "image_sha256": "5f0e8435c03dbb53a8f7011f50e4cc2bdf9e7497338fb4ba3fd107a7d7b6cb28"
+    },
+    {
+      "flags": [
+        "-DSPARKS=0"
+      ],
+      "identical": true,
+      "image_sha256": "4538f3691c0805651ac79e3d6dc27e127f5ff09bb3ad2f04838a84695ec4c57e"
+    }
+  ]
+}

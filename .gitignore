@@ -1,1 +1,7 @@
 *.img
+!final/*.img
+build/
+__pycache__/
+*.pyc
+releases/
+.DS_Store

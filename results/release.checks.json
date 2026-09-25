@@ -1,0 +1,3603 @@
+{
+  "upstream_commit": "86dc8d932db282097fd157e2c65051af7a3dd118",
+  "builds": {
+    "upstream": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/upstream.img",
+      "symbols": {
+        "Usage": 31744,
+        "start": 31744,
+        "this": 31758,
+        "this.pal": 31767,
+        "al": 31767,
+        "index": 31773,
+        "as": 31903,
+        "get": 31806,
+        "get.live": 31804,
+        "get.next": 31834,
+        "CELLS": 31838,
+        "CELLS.seed": 31872,
+        "bit": 31877,
+        "palette": 31877,
+        "generation": 31882,
+        "Currently": 31882,
+        "Currently.cell": 31901,
+        "so": 31903,
+        "is": 31903,
+        "is.row": 31911,
+        "is.col": 31914,
+        "have": 31916,
+        "have.on": 31955,
+        "have.off": 31963,
+        "have.age": 31971,
+        "have.fade": 31979,
+        "have.store": 31985,
+        "have.spark": 31998,
+        "have.nospark": 32013,
+        "glider": 32034,
+        "glider.noglider": 32063,
+        "glider.wait": 32068,
+        "pout": 32079,
+        "pout.ok": 32085,
+        "rnd": 32087
+      },
+      "sha256": "84d5c99e8538b4f5dae30badb347755926e7945689663d801b566d5b04602f73",
+      "source_sha256": "ffb15d81f1c98a871d72dc83333abf33dff6f26cb1ba69750f826a29aaf8070e",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 355
+    },
+    "original": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/original.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31767,
+        "start.live": 31804,
+        "start.next": 31834,
+        "start.seed": 31872,
+        "generation": 31882,
+        "generation.cell": 31901,
+        "generation.row": 31911,
+        "generation.col": 31914,
+        "generation.on": 31955,
+        "generation.off": 31963,
+        "generation.age": 31971,
+        "generation.fade": 31979,
+        "generation.store": 31985,
+        "generation.spark": 31998,
+        "generation.nospark": 32013,
+        "generation.noglider": 32063,
+        "generation.wait": 32068,
+        "pout": 32079,
+        "pout.ok": 32085,
+        "rnd": 32087,
+        "payload_end": 32099
+      },
+      "sha256": "84d5c99e8538b4f5dae30badb347755926e7945689663d801b566d5b04602f73",
+      "source_sha256": "74afd194bbc320a7d8f01f51f3be9c294910826bf8ab7cd0adf8a1dd92225d7b",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 355
+    },
+    "original_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/original_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31767,
+        "start.live": 31804,
+        "start.next": 31834,
+        "start.seed": 31871,
+        "generation": 31881,
+        "generation.cell": 31902,
+        "generation.row": 31912,
+        "generation.col": 31915,
+        "generation.on": 31956,
+        "generation.off": 31964,
+        "generation.age": 31972,
+        "generation.fade": 31980,
+        "generation.store": 31986,
+        "benchmark_done": 32003,
+        "pout": 32007,
+        "pout.ok": 32013,
+        "rnd": 32015,
+        "payload_end": 32027
+      },
+      "sha256": "cd85fe407339c59fd9c68cf4cf2ddc86466457400c28c3d6139363c2a616066a",
+      "source_sha256": "18b47247a099fde0b60c42c41d102415cc77041912fbe54d506db4d177551e8c",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 283
+    },
+    "center_sum": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/center_sum.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31767,
+        "start.live": 31804,
+        "start.next": 31834,
+        "start.seed": 31872,
+        "generation": 31882,
+        "generation.cell": 31901,
+        "generation.row": 31911,
+        "generation.col": 31914,
+        "generation.on": 31948,
+        "generation.off": 31956,
+        "generation.age": 31964,
+        "generation.fade": 31972,
+        "generation.store": 31978,
+        "generation.spark": 31991,
+        "generation.nospark": 32006,
+        "generation.noglider": 32056,
+        "generation.wait": 32061,
+        "pout": 32072,
+        "pout.ok": 32078,
+        "rnd": 32080,
+        "payload_end": 32092
+      },
+      "sha256": "c65f92a45e3bd4d917d41d79289c7a73e01d5f1045a422c3b1b704fd41e45bd8",
+      "source_sha256": "a1fd38ef729c74427c8d22fd9ccbeb9243c7b6d7f9f79e5c3ef50e9c74e89bba",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 348
+    },
+    "center_sum_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/center_sum_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31767,
+        "start.live": 31804,
+        "start.next": 31834,
+        "start.seed": 31871,
+        "generation": 31881,
+        "generation.cell": 31902,
+        "generation.row": 31912,
+        "generation.col": 31915,
+        "generation.on": 31949,
+        "generation.off": 31957,
+        "generation.age": 31965,
+        "generation.fade": 31973,
+        "generation.store": 31979,
+        "benchmark_done": 31996,
+        "pout": 32000,
+        "pout.ok": 32006,
+        "rnd": 32008,
+        "payload_end": 32020
+      },
+      "sha256": "d674d1665b28d1b2fcf1c69330db90230614dbc1fc13bcfcc3d57cdea9354261",
+      "source_sha256": "1f0c680dc9bce51c386ea290a9573041f83b2bb11a65f4631bf98e03bded41c2",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 276
+    },
+    "hotloop": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/hotloop.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31875,
+        "generation": 31885,
+        "generation.cell": 31905,
+        "generation.on": 31993,
+        "generation.off": 32001,
+        "generation.age": 32009,
+        "generation.fade": 32017,
+        "generation.store": 32023,
+        "generation.spark": 32038,
+        "generation.nospark": 32053,
+        "generation.sparks_done": 32055,
+        "generation.noglider": 32103,
+        "generation.wait": 32108,
+        "pout": 32119,
+        "pout.ok": 32125,
+        "rnd": 32127,
+        "payload_end": 32139
+      },
+      "sha256": "769a57ec0155590ca63ee38adf1f888ad23b3e29be7874c3699e1d022fdc92a2",
+      "source_sha256": "280ad50b3bc3aef1f5f0a26281802294df3a83405fc9423a76965b548374a1d1",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 395
+    },
+    "hotloop_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/hotloop_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.cell": 31906,
+        "generation.on": 31994,
+        "generation.off": 32002,
+        "generation.age": 32010,
+        "generation.fade": 32018,
+        "generation.store": 32024,
+        "benchmark_done": 32043,
+        "pout": 32047,
+        "pout.ok": 32053,
+        "rnd": 32055,
+        "payload_end": 32067
+      },
+      "sha256": "3d3f7c040ecaca7d14efabf60481d844105a930dd2e5a49bb7008f6d0b13d80a",
+      "source_sha256": "0613536345a07ed2b7a78fadbbeb92152d1dde84f6b2642c842253214411d029",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 323
+    },
+    "padded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.copy_row": 31896,
+        "generation.cell": 31923,
+        "generation.on": 32011,
+        "generation.off": 32019,
+        "generation.age": 32027,
+        "generation.fade": 32035,
+        "generation.store": 32041,
+        "generation.spark": 32062,
+        "generation.nospark": 32077,
+        "generation.sparks_done": 32079,
+        "generation.glider": 32079,
+        "generation.noglider": 32140,
+        "generation.wait": 32145,
+        "pout": 32156,
+        "pout.ok": 32162,
+        "rnd": 32164,
+        "payload_end": 32176
+      },
+      "sha256": "f196cdd66bc9dd30517d75a96426ba7d39c34dfc8b95839707b623216b7cf2aa",
+      "source_sha256": "d2091ceeace4d740768933ae321d269d2b05c49242709e21932e58a1e01ab916",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 432
+    },
+    "padded_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31897,
+        "generation.cell": 31924,
+        "generation.on": 32012,
+        "generation.off": 32020,
+        "generation.age": 32028,
+        "generation.fade": 32036,
+        "generation.store": 32042,
+        "benchmark_done": 32067,
+        "pout": 32071,
+        "pout.ok": 32077,
+        "rnd": 32079,
+        "payload_end": 32091
+      },
+      "sha256": "0f952f536c6445fb68aec12c9c9ce54f3cee1dc5741c5656c424b74d9c64693e",
+      "source_sha256": "f83658b80eab3a45ba18f429287ea4431dce0d9a64d61262be1e4d487f53b432",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 347
+    },
+    "dualram": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/dualram.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed_row": 31879,
+        "start.seed": 31882,
+        "generation": 31898,
+        "generation.cell": 31913,
+        "generation.on": 32001,
+        "generation.off": 32009,
+        "generation.age": 32017,
+        "generation.fade": 32025,
+        "generation.store": 32031,
+        "generation.spark": 32055,
+        "generation.nospark": 32085,
+        "generation.sparks_done": 32087,
+        "generation.glider": 32087,
+        "generation.noglider": 32156,
+        "present_frame": 32156,
+        "present_frame.row": 32173,
+        "present_frame.wait": 32192,
+        "pout": 32203,
+        "pout.ok": 32209,
+        "rnd": 32211,
+        "payload_end": 32223
+      },
+      "sha256": "e3d1e173a2ae054009fff6618f1dcb7256d3e438337d8ab1aeadb99ffe2ad4ab",
+      "source_sha256": "c2c2e0aae322a458992f3f2db6ccd8f4924c6bac38925b061d559afa33c1f0ce",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 479
+    },
+    "dualram_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/dualram_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed_row": 31878,
+        "start.seed": 31881,
+        "generation": 31897,
+        "generation.cell": 31914,
+        "generation.on": 32002,
+        "generation.off": 32010,
+        "generation.age": 32018,
+        "generation.fade": 32026,
+        "generation.store": 32032,
+        "present_frame": 32051,
+        "present_frame.row": 32068,
+        "benchmark_done": 32091,
+        "pout": 32095,
+        "pout.ok": 32101,
+        "rnd": 32103,
+        "payload_end": 32115
+      },
+      "sha256": "7520f56b1c654e5065aea58d62b209544379f3d0931900c4ae9e77e490abbdfc",
+      "source_sha256": "193a5b7f9c4a068fca4da6724d68f90ffa75beed5ce8bfde3b057b6d8914592b",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 371
+    },
+    "padded_deadcount": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_deadcount.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.copy_row": 31896,
+        "generation.cell": 31923,
+        "generation.on": 31995,
+        "generation.off": 32003,
+        "generation.age": 32011,
+        "generation.fade": 32019,
+        "generation.store": 32025,
+        "generation.spark": 32044,
+        "generation.nospark": 32059,
+        "generation.sparks_done": 32061,
+        "generation.glider": 32061,
+        "generation.noglider": 32122,
+        "generation.wait": 32127,
+        "pout": 32138,
+        "pout.ok": 32144,
+        "rnd": 32146,
+        "payload_end": 32158
+      },
+      "sha256": "932171b3ab5154b6f36b77b694409ff1497c977261d05f94198811f3bb61e283",
+      "source_sha256": "29b52e94190ad630a6041ef870e3b4ecf12a7c49c60f952cb5adf5eabdb2a940",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 414
+    },
+    "padded_deadcount_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_deadcount_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31897,
+        "generation.cell": 31924,
+        "generation.on": 31996,
+        "generation.off": 32004,
+        "generation.age": 32012,
+        "generation.fade": 32020,
+        "generation.store": 32026,
+        "benchmark_done": 32049,
+        "pout": 32053,
+        "pout.ok": 32059,
+        "rnd": 32061,
+        "payload_end": 32073
+      },
+      "sha256": "3c8a3ae0171db0f35895028c43724439527c32cbea62deed529f0d421f0c2fe8",
+      "source_sha256": "340904ddd615b1f0b43b6b104bad5a67f828dea5cba9dc7b6dc9a76c8a81ac4c",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 329
+    },
+    "rolling": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.row": 31918,
+        "generation.bottom": 31946,
+        "generation.loaded": 31952,
+        "generation.cell": 31963,
+        "generation.on": 32035,
+        "generation.off": 32043,
+        "generation.age": 32051,
+        "generation.fade": 32059,
+        "generation.store": 32065,
+        "generation.complete": 32095,
+        "generation.spark": 32100,
+        "generation.nospark": 32115,
+        "generation.sparks_done": 32117,
+        "generation.glider": 32117,
+        "generation.noglider": 32178,
+        "generation.wait": 32183,
+        "pout": 32194,
+        "pout.ok": 32200,
+        "rnd": 32202,
+        "payload_end": 32214
+      },
+      "sha256": "3d903395d9c3a61822d42a4b9254e9a2920f429795ff469747d65af05e4b9820",
+      "source_sha256": "c60dde304ead9ab5f77d9c587a563414a87db9a2108f5dbe9c589a68a87dac7b",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 470
+    },
+    "rolling_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31919,
+        "generation.bottom": 31947,
+        "generation.loaded": 31953,
+        "generation.cell": 31964,
+        "generation.on": 32036,
+        "generation.off": 32044,
+        "generation.age": 32052,
+        "generation.fade": 32060,
+        "generation.store": 32066,
+        "generation.complete": 32096,
+        "benchmark_done": 32105,
+        "pout": 32109,
+        "pout.ok": 32115,
+        "rnd": 32117,
+        "payload_end": 32129
+      },
+      "sha256": "b57c6bcdb577416db29ec4575e467b3b8e794e96e2e6fcb6e94f92d1adab8af9",
+      "source_sha256": "b2d7ca2c8158f15b5ffe2416e69e7ad4e1a25bd0d603667ba9599786bc90b38c",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 385
+    },
+    "ring": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/ring.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.row": 31934,
+        "generation.bottom": 31965,
+        "generation.loaded": 31971,
+        "generation.cell": 31980,
+        "generation.on": 32050,
+        "generation.off": 32058,
+        "generation.age": 32066,
+        "generation.fade": 32074,
+        "generation.store": 32080,
+        "generation.complete": 32104,
+        "generation.spark": 32113,
+        "generation.nospark": 32128,
+        "generation.sparks_done": 32130,
+        "generation.glider": 32130,
+        "generation.noglider": 32191,
+        "generation.wait": 32196,
+        "pout": 32207,
+        "pout.ok": 32213,
+        "rnd": 32215,
+        "payload_end": 32227
+      },
+      "sha256": "735bd496876f80925378d1e45d5f5d57429ce5792566808f212aadb4088e06a6",
+      "source_sha256": "2d24e252cf50dcf96def7a1f8027eab9e6f45d3716ea035129e4c162d110c094",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 483
+    },
+    "ring_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/ring_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31935,
+        "generation.bottom": 31966,
+        "generation.loaded": 31972,
+        "generation.cell": 31981,
+        "generation.on": 32051,
+        "generation.off": 32059,
+        "generation.age": 32067,
+        "generation.fade": 32075,
+        "generation.store": 32081,
+        "generation.complete": 32105,
+        "benchmark_done": 32118,
+        "pout": 32122,
+        "pout.ok": 32128,
+        "rnd": 32130,
+        "payload_end": 32142
+      },
+      "sha256": "085461318e09d5283b4ee65dac7989fed465314b506ea1da083858f1762d07e2",
+      "source_sha256": "103003da109a764a5664201313395a4b52b48b8667d974cca2b3224e4ebf8de5",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 398
+    },
+    "rolling_dword": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_dword.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31874,
+        "generation": 31884,
+        "generation.row": 31918,
+        "generation.bottom": 31946,
+        "generation.loaded": 31952,
+        "generation.cell": 31963,
+        "generation.on": 32035,
+        "generation.off": 32043,
+        "generation.age": 32051,
+        "generation.fade": 32059,
+        "generation.store": 32065,
+        "generation.complete": 32096,
+        "generation.spark": 32101,
+        "generation.nospark": 32116,
+        "generation.sparks_done": 32118,
+        "generation.glider": 32118,
+        "generation.noglider": 32179,
+        "generation.wait": 32184,
+        "pout": 32195,
+        "pout.ok": 32201,
+        "rnd": 32203,
+        "payload_end": 32215
+      },
+      "sha256": "671357f2990f97c6cf0505c8e87dcbff328d71ed893713d9daf2628aea04ea6b",
+      "source_sha256": "1aefa43e26f5853ed1e54f0bffa030a2cb92ed6238d1a1e5db8c7dd59b07473f",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 471
+    },
+    "rolling_dword_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_dword_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31919,
+        "generation.bottom": 31947,
+        "generation.loaded": 31953,
+        "generation.cell": 31964,
+        "generation.on": 32036,
+        "generation.off": 32044,
+        "generation.age": 32052,
+        "generation.fade": 32060,
+        "generation.store": 32066,
+        "generation.complete": 32097,
+        "benchmark_done": 32106,
+        "pout": 32110,
+        "pout.ok": 32116,
+        "rnd": 32118,
+        "payload_end": 32130
+      },
+      "sha256": "ea7028f546e0ef49c015adf7e55a87c5b157e7d4b62731d1834f9c0420931439",
+      "source_sha256": "0a1496352dc22e44cc9beccd6ee03e252071df4783d15bab5a4a66c218e113f7",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 386
+    },
+    "sliding": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31871,
+        "generation": 31881,
+        "generation.copy_row": 31893,
+        "generation.row": 31914,
+        "generation.cell": 31942,
+        "generation.on": 31990,
+        "generation.off": 31998,
+        "generation.age": 32006,
+        "generation.fade": 32014,
+        "generation.store": 32020,
+        "generation.spark": 32039,
+        "generation.nospark": 32054,
+        "generation.sparks_done": 32056,
+        "generation.glider": 32056,
+        "generation.noglider": 32117,
+        "generation.wait": 32122,
+        "pout": 32133,
+        "pout.ok": 32139,
+        "rnd": 32141,
+        "payload_end": 32152
+      },
+      "sha256": "1d1c598d05808456408daa7edb4b7c0354ff31b93fe6e21f01ed2a50edab8389",
+      "source_sha256": "1d921b44cef8026daf3331bb3bb96879ba8a2db5dc3ebd2d1ffbdd481553edec",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 408
+    },
+    "sliding_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31894,
+        "generation.row": 31915,
+        "generation.cell": 31943,
+        "generation.on": 31991,
+        "generation.off": 31999,
+        "generation.age": 32007,
+        "generation.fade": 32015,
+        "generation.store": 32021,
+        "benchmark_done": 32044,
+        "pout": 32048,
+        "pout.ok": 32054,
+        "rnd": 32056,
+        "payload_end": 32067
+      },
+      "sha256": "68591e397676f1f189a193986c0b05cab281fe7bc5a3c171f08c7f331653dd5d",
+      "source_sha256": "4015229c8169a2b56c76f61ae1e25209f009c5a59307afa0739002723c612cf2",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 323
+    },
+    "rolling_sliding": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_sliding.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31871,
+        "generation": 31881,
+        "generation.row": 31915,
+        "generation.bottom": 31943,
+        "generation.loaded": 31949,
+        "generation.cell": 31985,
+        "generation.on": 32033,
+        "generation.off": 32041,
+        "generation.age": 32049,
+        "generation.fade": 32057,
+        "generation.store": 32063,
+        "generation.complete": 32093,
+        "generation.spark": 32098,
+        "generation.nospark": 32113,
+        "generation.sparks_done": 32115,
+        "generation.glider": 32115,
+        "generation.noglider": 32176,
+        "generation.wait": 32181,
+        "pout": 32192,
+        "pout.ok": 32198,
+        "rnd": 32200,
+        "payload_end": 32211
+      },
+      "sha256": "4a7d3fa658324472515af9e5be043b531071bd542459a4b58d3e195467b80caa",
+      "source_sha256": "408e864b507d90e56507c8f46eeecd45c04c60e3847d5384fe7deb4ad74ba059",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 467
+    },
+    "rolling_sliding_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_sliding_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.row": 31916,
+        "generation.bottom": 31944,
+        "generation.loaded": 31950,
+        "generation.cell": 31986,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32094,
+        "benchmark_done": 32103,
+        "pout": 32107,
+        "pout.ok": 32113,
+        "rnd": 32115,
+        "payload_end": 32126
+      },
+      "sha256": "01472a61e5efdcb9363ebc5ac6d90614846ea78ad73d30076532e399e5de832b",
+      "source_sha256": "e1f09d498b380637e6447e64bf551148e21c617b523171dc3471505cf0959580",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 382
+    },
+    "sliding_lut": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31935,
+        "generation": 31945,
+        "generation.copy_row": 31957,
+        "generation.row": 31978,
+        "generation.cell": 32006,
+        "generation.store": 32043,
+        "generation.spark": 32062,
+        "generation.nospark": 32077,
+        "generation.sparks_done": 32079,
+        "generation.glider": 32079,
+        "generation.noglider": 32140,
+        "generation.wait": 32145,
+        "pout": 32156,
+        "pout.ok": 32162,
+        "rnd": 32164,
+        "payload_end": 32175
+      },
+      "sha256": "339effe8164665ccf7c25667152de0a062081afd5f137f9db6ab4b9f8da27be4",
+      "source_sha256": "865df03e3c709cb629edd5585ded6da885f859f772d0d50c1514d1cd46503801",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 431
+    },
+    "sliding_lut_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31958,
+        "generation.row": 31979,
+        "generation.cell": 32007,
+        "generation.store": 32044,
+        "benchmark_done": 32065,
+        "pout": 32069,
+        "pout.ok": 32075,
+        "rnd": 32077,
+        "payload_end": 32088
+      },
+      "sha256": "639ddf3ca3a555adbcb9ebfe33efa2111f8e5f25fc73186f00cafd0b828380b6",
+      "source_sha256": "1b82964dc84e1826b51cac56f29c8e14af009091f1800e0ca83c95ca02dabcd2",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 344
+    },
+    "sliding_bits": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bits.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31871,
+        "generation": 31881,
+        "generation.copy_row": 31893,
+        "generation.row": 31914,
+        "generation.cell": 31939,
+        "generation.on": 31973,
+        "generation.off": 31981,
+        "generation.age": 31989,
+        "generation.fade": 31997,
+        "generation.store": 32003,
+        "generation.spark": 32022,
+        "generation.nospark": 32037,
+        "generation.sparks_done": 32039,
+        "generation.glider": 32039,
+        "generation.noglider": 32100,
+        "generation.wait": 32105,
+        "pout": 32116,
+        "pout.ok": 32122,
+        "rnd": 32124,
+        "rule_bits": 32135,
+        "payload_end": 32199
+      },
+      "sha256": "cf73ceb0be9b723a063838546b73db4b806b4b298c459487063d58e72dbc41ef",
+      "source_sha256": "4d93efb144b18c25760d88d1af1be27d3e15c1c58a698ca6a6b878c3f2458e75",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 455
+    },
+    "sliding_bits_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bits_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31894,
+        "generation.row": 31915,
+        "generation.cell": 31940,
+        "generation.on": 31974,
+        "generation.off": 31982,
+        "generation.age": 31990,
+        "generation.fade": 31998,
+        "generation.store": 32004,
+        "benchmark_done": 32027,
+        "pout": 32031,
+        "pout.ok": 32037,
+        "rnd": 32039,
+        "rule_bits": 32050,
+        "payload_end": 32114
+      },
+      "sha256": "a00ec02bd8221410365e10a374fddda2b03e5ac379ceb86a47c2ed533a97144c",
+      "source_sha256": "ba4a4333fc09b0ae40a73c3cd1423906542e7b283cbf4946f151a2bf5153086f",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 370
+    },
+    "rolling_lut": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_lut.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31935,
+        "generation": 31945,
+        "generation.row": 31979,
+        "generation.bottom": 32007,
+        "generation.loaded": 32013,
+        "generation.cell": 32049,
+        "generation.store": 32086,
+        "generation.complete": 32116,
+        "generation.spark": 32121,
+        "generation.nospark": 32136,
+        "generation.sparks_done": 32138,
+        "generation.glider": 32138,
+        "generation.noglider": 32199,
+        "generation.wait": 32204,
+        "pout": 32215,
+        "pout.ok": 32221,
+        "rnd": 32223,
+        "payload_end": 32234
+      },
+      "sha256": "d92198ce4f0b41675c4f521c8ed0df263b4e4424de783a84843ceae5b54a578f",
+      "source_sha256": "80a5de943637ba8651edb5ea21d38d69086daa93499272da4f2c64b94654f0f7",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 490
+    },
+    "rolling_lut_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_lut_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.row": 31980,
+        "generation.bottom": 32008,
+        "generation.loaded": 32014,
+        "generation.cell": 32050,
+        "generation.store": 32087,
+        "generation.complete": 32117,
+        "benchmark_done": 32126,
+        "pout": 32130,
+        "pout.ok": 32136,
+        "rnd": 32138,
+        "payload_end": 32149
+      },
+      "sha256": "fd78a4680ece06ef2c5d50c8e370a33e53f25e8b80854fac2d8f19962d7fb2ec",
+      "source_sha256": "c8c690c8ea9350970c155df685322c062bf9a55d64c61785cea00d9fa9811c91",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 405
+    },
+    "sliding_lut_word": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_word.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31935,
+        "generation": 31945,
+        "generation.copy_row": 31957,
+        "generation.row": 31978,
+        "generation.cell": 32006,
+        "generation.store": 32085,
+        "generation.spark": 32104,
+        "generation.nospark": 32119,
+        "generation.sparks_done": 32121,
+        "generation.glider": 32121,
+        "generation.noglider": 32182,
+        "generation.wait": 32187,
+        "pout": 32198,
+        "pout.ok": 32204,
+        "rnd": 32206,
+        "payload_end": 32217
+      },
+      "sha256": "bae38e039b4a6d881070deefa3a89e238bf54b66691c1372ce8fc082755004d7",
+      "source_sha256": "f7859177aa3fc9b80ad6f44e93cff7f146af8bf81fce9ac9193fbf222522c289",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 473
+    },
+    "sliding_lut_word_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_word_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31958,
+        "generation.row": 31979,
+        "generation.cell": 32007,
+        "generation.store": 32086,
+        "benchmark_done": 32109,
+        "pout": 32113,
+        "pout.ok": 32119,
+        "rnd": 32121,
+        "payload_end": 32132
+      },
+      "sha256": "3bd44f625baa0d91a0f08c4dd20bd730694a17870b2da593210c2f859c135baa",
+      "source_sha256": "dd02013cf69c962e94cbbdf048d7387f1a4ea2832bb28e354a32d8ba7038a465",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 388
+    },
+    "rolling_bits": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bits.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31835,
+        "start.seed": 31869,
+        "generation": 31879,
+        "generation.row": 31913,
+        "generation.bottom": 31941,
+        "generation.loaded": 31947,
+        "generation.cell": 31980,
+        "generation.on": 32014,
+        "generation.off": 32022,
+        "generation.age": 32030,
+        "generation.fade": 32038,
+        "generation.store": 32044,
+        "generation.complete": 32074,
+        "generation.spark": 32077,
+        "generation.nospark": 32092,
+        "generation.sparks_done": 32094,
+        "generation.glider": 32094,
+        "generation.noglider": 32155,
+        "generation.wait": 32160,
+        "pout": 32171,
+        "pout.ok": 32177,
+        "rnd": 32179,
+        "rule_bits": 32190,
+        "payload_end": 32254
+      },
+      "sha256": "0c7a68ddfbbd124c77fdabb08aa143a97d125e1f853077439bc65d390ecb4ba7",
+      "source_sha256": "5be7beeb4d5cf44e292f1f5d47f68160d6e84221644be9c67afff0362f887532",
+      "flags": [
+        "-f",
+        "bin"
+      ],
+      "payload_bytes": 510
+    },
+    "rolling_bits_bench": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bits_bench.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31835,
+        "start.seed": 31868,
+        "generation": 31878,
+        "generation.row": 31914,
+        "generation.bottom": 31942,
+        "generation.loaded": 31948,
+        "generation.cell": 31981,
+        "generation.on": 32015,
+        "generation.off": 32023,
+        "generation.age": 32031,
+        "generation.fade": 32039,
+        "generation.store": 32045,
+        "generation.complete": 32075,
+        "benchmark_done": 32084,
+        "pout": 32088,
+        "pout.ok": 32094,
+        "rnd": 32096,
+        "rule_bits": 32107,
+        "payload_end": 32171
+      },
+      "sha256": "952fdcf2cd8eafefeaacf2ef51d5cc117f63be96d5e69e1a6f50f64e41e52297",
+      "source_sha256": "3493e5f081d4d50587a4bf44fb416b91aafb28702135cf46db71a69f47a46d33",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 427
+    },
+    "padded_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 32010,
+        "generation.off": 32018,
+        "generation.age": 32026,
+        "generation.fade": 32034,
+        "generation.store": 32040,
+        "generation.spark": 32056,
+        "generation.nospark": 32056,
+        "generation.sparks_done": 32056,
+        "generation.glider": 32056,
+        "generation.noglider": 32056,
+        "generation.wait": 32061,
+        "pout": 32072,
+        "pout.ok": 32078,
+        "rnd": 32080,
+        "payload_end": 32092
+      },
+      "sha256": "f7864f38b354d4613e5e9ffaf6aff79e076c6a88f135bdc12bc52b89132ada03",
+      "source_sha256": "d2091ceeace4d740768933ae321d269d2b05c49242709e21932e58a1e01ab916",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 348
+    },
+    "padded_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 32010,
+        "generation.off": 32018,
+        "generation.age": 32026,
+        "generation.fade": 32034,
+        "generation.store": 32040,
+        "generation.spark": 32056,
+        "generation.nospark": 32056,
+        "generation.sparks_done": 32056,
+        "generation.glider": 32056,
+        "generation.noglider": 32117,
+        "generation.wait": 32122,
+        "pout": 32133,
+        "pout.ok": 32139,
+        "rnd": 32141,
+        "payload_end": 32153
+      },
+      "sha256": "45285f4c89ef4ba192978390cb3116e177d7624b3572df346845f723d411dec8",
+      "source_sha256": "d2091ceeace4d740768933ae321d269d2b05c49242709e21932e58a1e01ab916",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 409
+    },
+    "padded_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 32010,
+        "generation.off": 32018,
+        "generation.age": 32026,
+        "generation.fade": 32034,
+        "generation.store": 32040,
+        "generation.spark": 32061,
+        "generation.nospark": 32076,
+        "generation.sparks_done": 32078,
+        "generation.glider": 32078,
+        "generation.noglider": 32139,
+        "generation.wait": 32144,
+        "pout": 32155,
+        "pout.ok": 32161,
+        "rnd": 32163,
+        "payload_end": 32175
+      },
+      "sha256": "37e8b3b34c350d39600b8eda8c9f2a27b4a2678b2d6d7aba4c3274e5b70d1f3b",
+      "source_sha256": "d2091ceeace4d740768933ae321d269d2b05c49242709e21932e58a1e01ab916",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 431
+    },
+    "dualram_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/dualram_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed_row": 31878,
+        "start.seed": 31881,
+        "generation": 31897,
+        "generation.cell": 31912,
+        "generation.on": 32000,
+        "generation.off": 32008,
+        "generation.age": 32016,
+        "generation.fade": 32024,
+        "generation.store": 32030,
+        "generation.spark": 32049,
+        "generation.nospark": 32049,
+        "generation.sparks_done": 32049,
+        "generation.glider": 32049,
+        "generation.noglider": 32049,
+        "present_frame": 32049,
+        "present_frame.row": 32066,
+        "present_frame.wait": 32085,
+        "pout": 32096,
+        "pout.ok": 32102,
+        "rnd": 32104,
+        "payload_end": 32116
+      },
+      "sha256": "2955e6c2c06539c81c5f2aa3f9bd14cf4bac36290a1babf2d326f8eaed1fb094",
+      "source_sha256": "c2c2e0aae322a458992f3f2db6ccd8f4924c6bac38925b061d559afa33c1f0ce",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 372
+    },
+    "dualram_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/dualram_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed_row": 31878,
+        "start.seed": 31881,
+        "generation": 31897,
+        "generation.cell": 31912,
+        "generation.on": 32000,
+        "generation.off": 32008,
+        "generation.age": 32016,
+        "generation.fade": 32024,
+        "generation.store": 32030,
+        "generation.spark": 32049,
+        "generation.nospark": 32049,
+        "generation.sparks_done": 32049,
+        "generation.glider": 32049,
+        "generation.noglider": 32118,
+        "present_frame": 32118,
+        "present_frame.row": 32135,
+        "present_frame.wait": 32154,
+        "pout": 32165,
+        "pout.ok": 32171,
+        "rnd": 32173,
+        "payload_end": 32185
+      },
+      "sha256": "1ed89d8ba29dd072afb22bc0376dccf7243cb0dbcdba891f8354f7efcdb8defc",
+      "source_sha256": "c2c2e0aae322a458992f3f2db6ccd8f4924c6bac38925b061d559afa33c1f0ce",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 441
+    },
+    "dualram_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/dualram_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed_row": 31878,
+        "start.seed": 31881,
+        "generation": 31897,
+        "generation.cell": 31912,
+        "generation.on": 32000,
+        "generation.off": 32008,
+        "generation.age": 32016,
+        "generation.fade": 32024,
+        "generation.store": 32030,
+        "generation.spark": 32054,
+        "generation.nospark": 32084,
+        "generation.sparks_done": 32086,
+        "generation.glider": 32086,
+        "generation.noglider": 32155,
+        "present_frame": 32155,
+        "present_frame.row": 32172,
+        "present_frame.wait": 32191,
+        "pout": 32202,
+        "pout.ok": 32208,
+        "rnd": 32210,
+        "payload_end": 32222
+      },
+      "sha256": "4c9189840ed6e2823bb0a796018855e6e2c82b37b88f6fe910a55e9bc7781ca6",
+      "source_sha256": "c2c2e0aae322a458992f3f2db6ccd8f4924c6bac38925b061d559afa33c1f0ce",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 478
+    },
+    "padded_deadcount_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_deadcount_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 31994,
+        "generation.off": 32002,
+        "generation.age": 32010,
+        "generation.fade": 32018,
+        "generation.store": 32024,
+        "generation.spark": 32038,
+        "generation.nospark": 32038,
+        "generation.sparks_done": 32038,
+        "generation.glider": 32038,
+        "generation.noglider": 32038,
+        "generation.wait": 32043,
+        "pout": 32054,
+        "pout.ok": 32060,
+        "rnd": 32062,
+        "payload_end": 32074
+      },
+      "sha256": "afc825e482fdccd74ff1c3d9c66ba3793ac81e9386f3dac2ca4cb857cdf6a73a",
+      "source_sha256": "29b52e94190ad630a6041ef870e3b4ecf12a7c49c60f952cb5adf5eabdb2a940",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 330
+    },
+    "padded_deadcount_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_deadcount_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 31994,
+        "generation.off": 32002,
+        "generation.age": 32010,
+        "generation.fade": 32018,
+        "generation.store": 32024,
+        "generation.spark": 32038,
+        "generation.nospark": 32038,
+        "generation.sparks_done": 32038,
+        "generation.glider": 32038,
+        "generation.noglider": 32099,
+        "generation.wait": 32104,
+        "pout": 32115,
+        "pout.ok": 32121,
+        "rnd": 32123,
+        "payload_end": 32135
+      },
+      "sha256": "f72b8c18a52b1762950bbe8fe6084e530283e22c74475a8760d19ec6bee2498b",
+      "source_sha256": "29b52e94190ad630a6041ef870e3b4ecf12a7c49c60f952cb5adf5eabdb2a940",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 391
+    },
+    "padded_deadcount_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/padded_deadcount_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.copy_row": 31895,
+        "generation.cell": 31922,
+        "generation.on": 31994,
+        "generation.off": 32002,
+        "generation.age": 32010,
+        "generation.fade": 32018,
+        "generation.store": 32024,
+        "generation.spark": 32043,
+        "generation.nospark": 32058,
+        "generation.sparks_done": 32060,
+        "generation.glider": 32060,
+        "generation.noglider": 32121,
+        "generation.wait": 32126,
+        "pout": 32137,
+        "pout.ok": 32143,
+        "rnd": 32145,
+        "payload_end": 32157
+      },
+      "sha256": "497b9ae4350ef927ac0c3cbc0589202e70c6aed97d8dc4beab5878df667f31cd",
+      "source_sha256": "29b52e94190ad630a6041ef870e3b4ecf12a7c49c60f952cb5adf5eabdb2a940",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 413
+    },
+    "rolling_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32094,
+        "generation.spark": 32094,
+        "generation.nospark": 32094,
+        "generation.sparks_done": 32094,
+        "generation.glider": 32094,
+        "generation.noglider": 32094,
+        "generation.wait": 32099,
+        "pout": 32110,
+        "pout.ok": 32116,
+        "rnd": 32118,
+        "payload_end": 32130
+      },
+      "sha256": "3eee486f4f650728935bb0d865c472414f828b887bc24a1126c319d021b012a8",
+      "source_sha256": "c60dde304ead9ab5f77d9c587a563414a87db9a2108f5dbe9c589a68a87dac7b",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 386
+    },
+    "rolling_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32094,
+        "generation.spark": 32094,
+        "generation.nospark": 32094,
+        "generation.sparks_done": 32094,
+        "generation.glider": 32094,
+        "generation.noglider": 32155,
+        "generation.wait": 32160,
+        "pout": 32171,
+        "pout.ok": 32177,
+        "rnd": 32179,
+        "payload_end": 32191
+      },
+      "sha256": "ec5234f29390df67d5cdfda31566f22f4c501fede8b73ca08bd082bf188f09cf",
+      "source_sha256": "c60dde304ead9ab5f77d9c587a563414a87db9a2108f5dbe9c589a68a87dac7b",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 447
+    },
+    "rolling_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32094,
+        "generation.spark": 32099,
+        "generation.nospark": 32114,
+        "generation.sparks_done": 32116,
+        "generation.glider": 32116,
+        "generation.noglider": 32177,
+        "generation.wait": 32182,
+        "pout": 32193,
+        "pout.ok": 32199,
+        "rnd": 32201,
+        "payload_end": 32213
+      },
+      "sha256": "64452f005f61ff2a512dd981424dec8667b51946a0c0fa87aa91320b004abd51",
+      "source_sha256": "c60dde304ead9ab5f77d9c587a563414a87db9a2108f5dbe9c589a68a87dac7b",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 469
+    },
+    "ring_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/ring_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31933,
+        "generation.bottom": 31964,
+        "generation.loaded": 31970,
+        "generation.cell": 31979,
+        "generation.on": 32049,
+        "generation.off": 32057,
+        "generation.age": 32065,
+        "generation.fade": 32073,
+        "generation.store": 32079,
+        "generation.complete": 32103,
+        "generation.spark": 32107,
+        "generation.nospark": 32107,
+        "generation.sparks_done": 32107,
+        "generation.glider": 32107,
+        "generation.noglider": 32107,
+        "generation.wait": 32112,
+        "pout": 32123,
+        "pout.ok": 32129,
+        "rnd": 32131,
+        "payload_end": 32143
+      },
+      "sha256": "fc27949010e7654db6de57527c4e3b9eeb08c0f1789feace24ecd7eb836c219b",
+      "source_sha256": "2d24e252cf50dcf96def7a1f8027eab9e6f45d3716ea035129e4c162d110c094",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 399
+    },
+    "ring_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/ring_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31933,
+        "generation.bottom": 31964,
+        "generation.loaded": 31970,
+        "generation.cell": 31979,
+        "generation.on": 32049,
+        "generation.off": 32057,
+        "generation.age": 32065,
+        "generation.fade": 32073,
+        "generation.store": 32079,
+        "generation.complete": 32103,
+        "generation.spark": 32107,
+        "generation.nospark": 32107,
+        "generation.sparks_done": 32107,
+        "generation.glider": 32107,
+        "generation.noglider": 32168,
+        "generation.wait": 32173,
+        "pout": 32184,
+        "pout.ok": 32190,
+        "rnd": 32192,
+        "payload_end": 32204
+      },
+      "sha256": "60b100e03bf93db074611c3b3b4d5cc48a829afd7a7b8aa794554284ede9db4e",
+      "source_sha256": "2d24e252cf50dcf96def7a1f8027eab9e6f45d3716ea035129e4c162d110c094",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 460
+    },
+    "ring_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/ring_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31933,
+        "generation.bottom": 31964,
+        "generation.loaded": 31970,
+        "generation.cell": 31979,
+        "generation.on": 32049,
+        "generation.off": 32057,
+        "generation.age": 32065,
+        "generation.fade": 32073,
+        "generation.store": 32079,
+        "generation.complete": 32103,
+        "generation.spark": 32112,
+        "generation.nospark": 32127,
+        "generation.sparks_done": 32129,
+        "generation.glider": 32129,
+        "generation.noglider": 32190,
+        "generation.wait": 32195,
+        "pout": 32206,
+        "pout.ok": 32212,
+        "rnd": 32214,
+        "payload_end": 32226
+      },
+      "sha256": "effdf4a137ba2004ef9f42d2c1db86653257cb8c6ce62a1d3f304a9d5fd74298",
+      "source_sha256": "2d24e252cf50dcf96def7a1f8027eab9e6f45d3716ea035129e4c162d110c094",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 482
+    },
+    "rolling_dword_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_dword_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32095,
+        "generation.spark": 32095,
+        "generation.nospark": 32095,
+        "generation.sparks_done": 32095,
+        "generation.glider": 32095,
+        "generation.noglider": 32095,
+        "generation.wait": 32100,
+        "pout": 32111,
+        "pout.ok": 32117,
+        "rnd": 32119,
+        "payload_end": 32131
+      },
+      "sha256": "e6f7d64b00a2ad7b96cb9b75255d9ea10cbb29a5a1336ca20d3d5c295b2f540f",
+      "source_sha256": "1aefa43e26f5853ed1e54f0bffa030a2cb92ed6238d1a1e5db8c7dd59b07473f",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 387
+    },
+    "rolling_dword_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_dword_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32095,
+        "generation.spark": 32095,
+        "generation.nospark": 32095,
+        "generation.sparks_done": 32095,
+        "generation.glider": 32095,
+        "generation.noglider": 32156,
+        "generation.wait": 32161,
+        "pout": 32172,
+        "pout.ok": 32178,
+        "rnd": 32180,
+        "payload_end": 32192
+      },
+      "sha256": "aad260f03e88fec71cea024487f004b2af45d008d6f6b7e23d0ce5c6b7680ee1",
+      "source_sha256": "1aefa43e26f5853ed1e54f0bffa030a2cb92ed6238d1a1e5db8c7dd59b07473f",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 448
+    },
+    "rolling_dword_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_dword_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31873,
+        "generation": 31883,
+        "generation.row": 31917,
+        "generation.bottom": 31945,
+        "generation.loaded": 31951,
+        "generation.cell": 31962,
+        "generation.on": 32034,
+        "generation.off": 32042,
+        "generation.age": 32050,
+        "generation.fade": 32058,
+        "generation.store": 32064,
+        "generation.complete": 32095,
+        "generation.spark": 32100,
+        "generation.nospark": 32115,
+        "generation.sparks_done": 32117,
+        "generation.glider": 32117,
+        "generation.noglider": 32178,
+        "generation.wait": 32183,
+        "pout": 32194,
+        "pout.ok": 32200,
+        "rnd": 32202,
+        "payload_end": 32214
+      },
+      "sha256": "704a45fd3b30fb0e67b9b827bd5b777b9f9e8ab0b79a1ce330c343fff68eff36",
+      "source_sha256": "1aefa43e26f5853ed1e54f0bffa030a2cb92ed6238d1a1e5db8c7dd59b07473f",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 470
+    },
+    "sliding_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31941,
+        "generation.on": 31989,
+        "generation.off": 31997,
+        "generation.age": 32005,
+        "generation.fade": 32013,
+        "generation.store": 32019,
+        "generation.spark": 32033,
+        "generation.nospark": 32033,
+        "generation.sparks_done": 32033,
+        "generation.glider": 32033,
+        "generation.noglider": 32033,
+        "generation.wait": 32038,
+        "pout": 32049,
+        "pout.ok": 32055,
+        "rnd": 32057,
+        "payload_end": 32068
+      },
+      "sha256": "913c7ebdfe5ede331b11d180451635a807a831db55cbaaa2252eb33dcdda5eae",
+      "source_sha256": "1d921b44cef8026daf3331bb3bb96879ba8a2db5dc3ebd2d1ffbdd481553edec",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 324
+    },
+    "sliding_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31941,
+        "generation.on": 31989,
+        "generation.off": 31997,
+        "generation.age": 32005,
+        "generation.fade": 32013,
+        "generation.store": 32019,
+        "generation.spark": 32033,
+        "generation.nospark": 32033,
+        "generation.sparks_done": 32033,
+        "generation.glider": 32033,
+        "generation.noglider": 32094,
+        "generation.wait": 32099,
+        "pout": 32110,
+        "pout.ok": 32116,
+        "rnd": 32118,
+        "payload_end": 32129
+      },
+      "sha256": "d2abdcd1d31ba33682bbe010a5a14eae228b3f862a8a69d298a25beef2975e2f",
+      "source_sha256": "1d921b44cef8026daf3331bb3bb96879ba8a2db5dc3ebd2d1ffbdd481553edec",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 385
+    },
+    "sliding_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31941,
+        "generation.on": 31989,
+        "generation.off": 31997,
+        "generation.age": 32005,
+        "generation.fade": 32013,
+        "generation.store": 32019,
+        "generation.spark": 32038,
+        "generation.nospark": 32053,
+        "generation.sparks_done": 32055,
+        "generation.glider": 32055,
+        "generation.noglider": 32116,
+        "generation.wait": 32121,
+        "pout": 32132,
+        "pout.ok": 32138,
+        "rnd": 32140,
+        "payload_end": 32151
+      },
+      "sha256": "4ecc89a70aad67227ac38a7031b2d9baf12b3cae1b999718b3410712205bece3",
+      "source_sha256": "1d921b44cef8026daf3331bb3bb96879ba8a2db5dc3ebd2d1ffbdd481553edec",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 407
+    },
+    "rolling_sliding_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_sliding_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.row": 31914,
+        "generation.bottom": 31942,
+        "generation.loaded": 31948,
+        "generation.cell": 31984,
+        "generation.on": 32032,
+        "generation.off": 32040,
+        "generation.age": 32048,
+        "generation.fade": 32056,
+        "generation.store": 32062,
+        "generation.complete": 32092,
+        "generation.spark": 32092,
+        "generation.nospark": 32092,
+        "generation.sparks_done": 32092,
+        "generation.glider": 32092,
+        "generation.noglider": 32092,
+        "generation.wait": 32097,
+        "pout": 32108,
+        "pout.ok": 32114,
+        "rnd": 32116,
+        "payload_end": 32127
+      },
+      "sha256": "781726a785797545b16923f1965299a1e305c58aec627cebaea47dac5a732fb1",
+      "source_sha256": "408e864b507d90e56507c8f46eeecd45c04c60e3847d5384fe7deb4ad74ba059",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 383
+    },
+    "rolling_sliding_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_sliding_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.row": 31914,
+        "generation.bottom": 31942,
+        "generation.loaded": 31948,
+        "generation.cell": 31984,
+        "generation.on": 32032,
+        "generation.off": 32040,
+        "generation.age": 32048,
+        "generation.fade": 32056,
+        "generation.store": 32062,
+        "generation.complete": 32092,
+        "generation.spark": 32092,
+        "generation.nospark": 32092,
+        "generation.sparks_done": 32092,
+        "generation.glider": 32092,
+        "generation.noglider": 32153,
+        "generation.wait": 32158,
+        "pout": 32169,
+        "pout.ok": 32175,
+        "rnd": 32177,
+        "payload_end": 32188
+      },
+      "sha256": "1496fc4919208176e27d76df3df688a80a73fff794a8f6d11acc6e019ccb980f",
+      "source_sha256": "408e864b507d90e56507c8f46eeecd45c04c60e3847d5384fe7deb4ad74ba059",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 444
+    },
+    "rolling_sliding_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_sliding_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.row": 31914,
+        "generation.bottom": 31942,
+        "generation.loaded": 31948,
+        "generation.cell": 31984,
+        "generation.on": 32032,
+        "generation.off": 32040,
+        "generation.age": 32048,
+        "generation.fade": 32056,
+        "generation.store": 32062,
+        "generation.complete": 32092,
+        "generation.spark": 32097,
+        "generation.nospark": 32112,
+        "generation.sparks_done": 32114,
+        "generation.glider": 32114,
+        "generation.noglider": 32175,
+        "generation.wait": 32180,
+        "pout": 32191,
+        "pout.ok": 32197,
+        "rnd": 32199,
+        "payload_end": 32210
+      },
+      "sha256": "83dce8aa2d0e37a735a81e8d9386fae5b14389258b22359eed64add55a250cad",
+      "source_sha256": "408e864b507d90e56507c8f46eeecd45c04c60e3847d5384fe7deb4ad74ba059",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 466
+    },
+    "sliding_lut_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32042,
+        "generation.spark": 32056,
+        "generation.nospark": 32056,
+        "generation.sparks_done": 32056,
+        "generation.glider": 32056,
+        "generation.noglider": 32056,
+        "generation.wait": 32061,
+        "pout": 32071,
+        "pout.ok": 32077,
+        "rnd": 32079,
+        "payload_end": 32090
+      },
+      "sha256": "6f0196e506f02135d4f5e591568e642bc48ad78899d4c595e9010a31ea41cbd2",
+      "source_sha256": "865df03e3c709cb629edd5585ded6da885f859f772d0d50c1514d1cd46503801",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 346
+    },
+    "sliding_lut_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32042,
+        "generation.spark": 32056,
+        "generation.nospark": 32056,
+        "generation.sparks_done": 32056,
+        "generation.glider": 32056,
+        "generation.noglider": 32117,
+        "generation.wait": 32122,
+        "pout": 32133,
+        "pout.ok": 32139,
+        "rnd": 32141,
+        "payload_end": 32152
+      },
+      "sha256": "4ae1527764a25c8aaff6b8c54e7a2b4e38b4a9fd940c8dd49f23bde482bce2a8",
+      "source_sha256": "865df03e3c709cb629edd5585ded6da885f859f772d0d50c1514d1cd46503801",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 408
+    },
+    "sliding_lut_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32042,
+        "generation.spark": 32061,
+        "generation.nospark": 32076,
+        "generation.sparks_done": 32078,
+        "generation.glider": 32078,
+        "generation.noglider": 32139,
+        "generation.wait": 32144,
+        "pout": 32155,
+        "pout.ok": 32161,
+        "rnd": 32163,
+        "payload_end": 32174
+      },
+      "sha256": "e369b955bc9bed83267b6eb3879b5d78b5faaf1f3957392559dc170ecddddab1",
+      "source_sha256": "865df03e3c709cb629edd5585ded6da885f859f772d0d50c1514d1cd46503801",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 430
+    },
+    "sliding_bits_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bits_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31938,
+        "generation.on": 31972,
+        "generation.off": 31980,
+        "generation.age": 31988,
+        "generation.fade": 31996,
+        "generation.store": 32002,
+        "generation.spark": 32016,
+        "generation.nospark": 32016,
+        "generation.sparks_done": 32016,
+        "generation.glider": 32016,
+        "generation.noglider": 32016,
+        "generation.wait": 32021,
+        "pout": 32032,
+        "pout.ok": 32038,
+        "rnd": 32040,
+        "rule_bits": 32051,
+        "payload_end": 32115
+      },
+      "sha256": "0584a560742e56f1eb6858cf0e0bc299cea1384e35d2140bd4466e6c8285736e",
+      "source_sha256": "4d93efb144b18c25760d88d1af1be27d3e15c1c58a698ca6a6b878c3f2458e75",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 371
+    },
+    "sliding_bits_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bits_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31938,
+        "generation.on": 31972,
+        "generation.off": 31980,
+        "generation.age": 31988,
+        "generation.fade": 31996,
+        "generation.store": 32002,
+        "generation.spark": 32016,
+        "generation.nospark": 32016,
+        "generation.sparks_done": 32016,
+        "generation.glider": 32016,
+        "generation.noglider": 32077,
+        "generation.wait": 32082,
+        "pout": 32093,
+        "pout.ok": 32099,
+        "rnd": 32101,
+        "rule_bits": 32112,
+        "payload_end": 32176
+      },
+      "sha256": "1d5f3961f1c3df6bfac2107f6cb20893caa542bd756ad687b790c28d49550851",
+      "source_sha256": "4d93efb144b18c25760d88d1af1be27d3e15c1c58a698ca6a6b878c3f2458e75",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 432
+    },
+    "sliding_bits_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_bits_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.seed": 31870,
+        "generation": 31880,
+        "generation.copy_row": 31892,
+        "generation.row": 31913,
+        "generation.cell": 31938,
+        "generation.on": 31972,
+        "generation.off": 31980,
+        "generation.age": 31988,
+        "generation.fade": 31996,
+        "generation.store": 32002,
+        "generation.spark": 32021,
+        "generation.nospark": 32036,
+        "generation.sparks_done": 32038,
+        "generation.glider": 32038,
+        "generation.noglider": 32099,
+        "generation.wait": 32104,
+        "pout": 32115,
+        "pout.ok": 32121,
+        "rnd": 32123,
+        "rule_bits": 32134,
+        "payload_end": 32198
+      },
+      "sha256": "bed3803359eb73572aa089f4a73e77d50c9080a4b511b5d607a500c6133fc505",
+      "source_sha256": "4d93efb144b18c25760d88d1af1be27d3e15c1c58a698ca6a6b878c3f2458e75",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 454
+    },
+    "rolling_lut_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_lut_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.row": 31978,
+        "generation.bottom": 32006,
+        "generation.loaded": 32012,
+        "generation.cell": 32048,
+        "generation.store": 32085,
+        "generation.complete": 32115,
+        "generation.spark": 32115,
+        "generation.nospark": 32115,
+        "generation.sparks_done": 32115,
+        "generation.glider": 32115,
+        "generation.noglider": 32115,
+        "generation.wait": 32120,
+        "pout": 32131,
+        "pout.ok": 32137,
+        "rnd": 32139,
+        "payload_end": 32150
+      },
+      "sha256": "8b2331c8130a8fb74e5dc34b894d243443b3739857a45f2ae016f73611448a4f",
+      "source_sha256": "80a5de943637ba8651edb5ea21d38d69086daa93499272da4f2c64b94654f0f7",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 406
+    },
+    "rolling_lut_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_lut_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.row": 31978,
+        "generation.bottom": 32006,
+        "generation.loaded": 32012,
+        "generation.cell": 32048,
+        "generation.store": 32085,
+        "generation.complete": 32115,
+        "generation.spark": 32115,
+        "generation.nospark": 32115,
+        "generation.sparks_done": 32115,
+        "generation.glider": 32115,
+        "generation.noglider": 32176,
+        "generation.wait": 32181,
+        "pout": 32192,
+        "pout.ok": 32198,
+        "rnd": 32200,
+        "payload_end": 32211
+      },
+      "sha256": "51211c7083ead4e43e88af64067aadeb42443b0f5900418521d046a58a2c02b8",
+      "source_sha256": "80a5de943637ba8651edb5ea21d38d69086daa93499272da4f2c64b94654f0f7",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 467
+    },
+    "rolling_lut_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_lut_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.row": 31978,
+        "generation.bottom": 32006,
+        "generation.loaded": 32012,
+        "generation.cell": 32048,
+        "generation.store": 32085,
+        "generation.complete": 32115,
+        "generation.spark": 32120,
+        "generation.nospark": 32135,
+        "generation.sparks_done": 32137,
+        "generation.glider": 32137,
+        "generation.noglider": 32198,
+        "generation.wait": 32203,
+        "pout": 32214,
+        "pout.ok": 32220,
+        "rnd": 32222,
+        "payload_end": 32233
+      },
+      "sha256": "bd7e076ab47eac16f839aa555d2e9e3a3b38c198378fb13dd2e1174869022a2e",
+      "source_sha256": "80a5de943637ba8651edb5ea21d38d69086daa93499272da4f2c64b94654f0f7",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 489
+    },
+    "sliding_lut_word_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_word_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32084,
+        "generation.spark": 32098,
+        "generation.nospark": 32098,
+        "generation.sparks_done": 32098,
+        "generation.glider": 32098,
+        "generation.noglider": 32098,
+        "generation.wait": 32103,
+        "pout": 32114,
+        "pout.ok": 32120,
+        "rnd": 32122,
+        "payload_end": 32133
+      },
+      "sha256": "db3152ec2c9d8042e3cea40b9d99d65bfcec41d954c4bcd6335cf6a00475eef5",
+      "source_sha256": "f7859177aa3fc9b80ad6f44e93cff7f146af8bf81fce9ac9193fbf222522c289",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 389
+    },
+    "sliding_lut_word_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_word_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32084,
+        "generation.spark": 32098,
+        "generation.nospark": 32098,
+        "generation.sparks_done": 32098,
+        "generation.glider": 32098,
+        "generation.noglider": 32159,
+        "generation.wait": 32164,
+        "pout": 32175,
+        "pout.ok": 32181,
+        "rnd": 32183,
+        "payload_end": 32194
+      },
+      "sha256": "fd881000103b18c66d8d7c4734d0e067c9960f010080c66b257fe664f2732423",
+      "source_sha256": "f7859177aa3fc9b80ad6f44e93cff7f146af8bf81fce9ac9193fbf222522c289",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 450
+    },
+    "sliding_lut_word_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/sliding_lut_word_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31837,
+        "start.table": 31852,
+        "start.on": 31868,
+        "start.off": 31876,
+        "start.age": 31884,
+        "start.fade": 31892,
+        "start.store": 31898,
+        "start.seed": 31934,
+        "generation": 31944,
+        "generation.copy_row": 31956,
+        "generation.row": 31977,
+        "generation.cell": 32005,
+        "generation.store": 32084,
+        "generation.spark": 32103,
+        "generation.nospark": 32118,
+        "generation.sparks_done": 32120,
+        "generation.glider": 32120,
+        "generation.noglider": 32181,
+        "generation.wait": 32186,
+        "pout": 32197,
+        "pout.ok": 32203,
+        "rnd": 32205,
+        "payload_end": 32216
+      },
+      "sha256": "46ab139e3385841349e8c3709f5655807df691cbdb4c4907b31ef0155f802e81",
+      "source_sha256": "f7859177aa3fc9b80ad6f44e93cff7f146af8bf81fce9ac9193fbf222522c289",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 472
+    },
+    "rolling_bits_no_injections": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bits_no_injections.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31835,
+        "start.seed": 31868,
+        "generation": 31878,
+        "generation.row": 31912,
+        "generation.bottom": 31940,
+        "generation.loaded": 31946,
+        "generation.cell": 31979,
+        "generation.on": 32013,
+        "generation.off": 32021,
+        "generation.age": 32029,
+        "generation.fade": 32037,
+        "generation.store": 32043,
+        "generation.complete": 32073,
+        "generation.spark": 32073,
+        "generation.nospark": 32073,
+        "generation.sparks_done": 32073,
+        "generation.glider": 32073,
+        "generation.noglider": 32073,
+        "generation.wait": 32078,
+        "pout": 32089,
+        "pout.ok": 32095,
+        "rnd": 32097,
+        "rule_bits": 32108,
+        "payload_end": 32172
+      },
+      "sha256": "184e6b53bd62295fbdf269ea9302a324a6756eec4062fb67322621f1a603599c",
+      "source_sha256": "5be7beeb4d5cf44e292f1f5d47f68160d6e84221644be9c67afff0362f887532",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=0",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 428
+    },
+    "rolling_bits_gliders_only": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bits_gliders_only.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31835,
+        "start.seed": 31868,
+        "generation": 31878,
+        "generation.row": 31912,
+        "generation.bottom": 31940,
+        "generation.loaded": 31946,
+        "generation.cell": 31979,
+        "generation.on": 32013,
+        "generation.off": 32021,
+        "generation.age": 32029,
+        "generation.fade": 32037,
+        "generation.store": 32043,
+        "generation.complete": 32073,
+        "generation.spark": 32073,
+        "generation.nospark": 32073,
+        "generation.sparks_done": 32073,
+        "generation.glider": 32073,
+        "generation.noglider": 32134,
+        "generation.wait": 32139,
+        "pout": 32150,
+        "pout.ok": 32156,
+        "rnd": 32158,
+        "rule_bits": 32169,
+        "payload_end": 32233
+      },
+      "sha256": "f909762a7afc983b09ce15a67472943775f427e2b223e91c072624155ac49018",
+      "source_sha256": "5be7beeb4d5cf44e292f1f5d47f68160d6e84221644be9c67afff0362f887532",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSPARKS=0",
+        "-DGLIDERS=1",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 489
+    },
+    "rolling_bits_seeded": {
+      "image": "/private/var/folders/d1/r2bpvclx19q4vd4c_8g42ddh0000gn/T/bootlife-release-stq6ahtx/bootlife-optimizations-2026-09-25/build/rolling_bits_seeded.img",
+      "symbols": {
+        "start": 31744,
+        "start.pal": 31770,
+        "start.live": 31807,
+        "start.next": 31835,
+        "start.seed": 31868,
+        "generation": 31878,
+        "generation.row": 31912,
+        "generation.bottom": 31940,
+        "generation.loaded": 31946,
+        "generation.cell": 31979,
+        "generation.on": 32013,
+        "generation.off": 32021,
+        "generation.age": 32029,
+        "generation.fade": 32037,
+        "generation.store": 32043,
+        "generation.complete": 32073,
+        "generation.spark": 32076,
+        "generation.nospark": 32091,
+        "generation.sparks_done": 32093,
+        "generation.glider": 32093,
+        "generation.noglider": 32154,
+        "generation.wait": 32159,
+        "pout": 32170,
+        "pout.ok": 32176,
+        "rnd": 32178,
+        "rule_bits": 32189,
+        "payload_end": 32253
+      },
+      "sha256": "d293a10b768a3a1e381b046c724118d080755ead28964e38740a7b634344e4db",
+      "source_sha256": "5be7beeb4d5cf44e292f1f5d47f68160d6e84221644be9c67afff0362f887532",
+      "flags": [
+        "-f",
+        "bin",
+        "-DSEED=0x1234"
+      ],
+      "payload_bytes": 509
+    }
+  },
+  "cpu": "pentium",
+  "harness_sha256": "563ee70dae1af38cd3732affac802005ad2ab477fc336dae210b27f0fad0a89e",
+  "variants": [
+    "sliding",
+    "rolling_sliding",
+    "rolling_lut",
+    "sliding_lut",
+    "sliding_lut_word",
+    "rolling_bits"
+  ],
+  "host": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.14",
+  "nasm": "NASM version 3.02 compiled on Jun 29 2026",
+  "qemu": "QEMU emulator version 11.0.1",
+  "emulator_configuration": "pc; tcg,thread=single; 16M; display=none; nic=none; BIOS floppy boot",
+  "qemu_command_template": [
+    "qemu-system-i386",
+    "-machine",
+    "pc",
+    "-accel",
+    "tcg,thread=single",
+    "-cpu",
+    "pentium",
+    "-m",
+    "16M",
+    "-display",
+    "none",
+    "-serial",
+    "none",
+    "-monitor",
+    "none",
+    "-no-reboot",
+    "-no-shutdown",
+    "-nic",
+    "none",
+    "-drive",
+    "file=<image>,format=raw,if=floppy,readonly=on",
+    "-S",
+    "-gdb",
+    "tcp:127.0.0.1:<ephemeral-port>"
+  ],
+  "created_utc": "2026-09-25T11:59:45Z",
+  "checks": {
+    "sliding": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    },
+    "rolling_sliding": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    },
+    "rolling_lut": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    },
+    "sliding_lut": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    },
+    "sliding_lut_word": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    },
+    "rolling_bits": {
+      "topology": "finite_dead_border",
+      "finite_eligible": true,
+      "cases": [
+        {
+          "case": "arbitrary_bytes",
+          "input_sha256": "573228f4dedee1889a72adee9737cedccfddc341eee734ea0e7f59d8449d973a",
+          "output_sha256_by_generation": [
+            "2581ff952dc3d4afb40758f341b923b9cd57c9b906b7da4da8920e0e8d952ac9",
+            "85965fea9721f43e0d9d96c96a896c86f151caaa0dde34d79a32d6f20ebf5d67",
+            "a01325b25f5304c33d94825efb64d6c55301add01db077c42da4a8c9850b97ff",
+            "ac4e26d2b9c75a8755896e275e90a0b6bd9f473fc740c2611d6d694f7149de2c",
+            "6de6f5898482db637f015dad9a08b659a59f80cfd3c85ae9010c87733cdabc3a"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "empty",
+          "input_sha256": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+          "output_sha256_by_generation": [
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+            "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "all_live",
+          "input_sha256": "21ca93e97f0e5f0519f19d694af68cb3fe4b950bfe0f7b180a2f63431811e8ae",
+          "output_sha256_by_generation": [
+            "86342fa19e1957c694cad7fde581d2dbb682becbb6a263ccf78c400b31778664",
+            "74edbfaf570025c3d15431099609170742064591751bbbb81293b75a8ad3b157",
+            "e368f931a010a6d7aa7956341509ed9a42f140a4c35002d5e1d926648f66fc34",
+            "8aa316b29059cf93fc603a4564413a8427750daccd22c75e56adc82622f64e42",
+            "2be7f4b4da84106edfdd90ccb184e93c0472213491033d8c2db9755695181bc6"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        },
+        {
+          "case": "edges_and_oscillator",
+          "input_sha256": "85d5994a3131508a975daa22e1fcabe12b470817d612f673c11922c1c5e5e0db",
+          "output_sha256_by_generation": [
+            "8a50d3c020b78e3b55a5f305535408a2b8dfeb43f5b705e3cf1c0c73696da34a",
+            "f6e48739fb28b8434d946f91d4c9cbc057e6ca0a1a77b81ea15bb0d3f865674b",
+            "b48cdf1b9407505ace0925c004dabee327ddafc78d1f13b9e5097e52481463a3",
+            "1d128b57866a7c34a2933c2eb379f7a36afdc82da0cd53e76fe99d8b6f8ee856",
+            "ffe9a4c7f340d5f3cdf2829a5a328ae0c70ba51b74fa30d4df119249f98ef8dd"
+          ],
+          "finite_reference_matches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "guards_and_halo_pass": true
+        }
+      ]
+    }
+  },
+  "glider_checks": {
+    "sliding": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ],
+    "rolling_sliding": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ],
+    "rolling_lut": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ],
+    "sliding_lut": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ],
+    "sliding_lut_word": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ],
+    "rolling_bits": [
+      {
+        "case": "last_valid_column",
+        "rng_state": 2255,
+        "origin": 33917,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "last_valid_row",
+        "rng_state": 1116,
+        "origin": 63202,
+        "accepted": true,
+        "pass": true
+      },
+      {
+        "case": "reject_column_318",
+        "rng_state": 6680,
+        "origin": 3518,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_column_319",
+        "rng_state": 1953,
+        "origin": 41279,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_row_198",
+        "rng_state": 5363,
+        "origin": 63617,
+        "accepted": false,
+        "pass": true
+      },
+      {
+        "case": "reject_outside_frame",
+        "rng_state": 272,
+        "origin": 64246,
+        "accepted": false,
+        "pass": true
+      }
+    ]
+  },
+  "seeded_checks": {
+    "sliding": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    },
+    "rolling_sliding": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    },
+    "rolling_lut": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    },
+    "sliding_lut": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    },
+    "sliding_lut_word": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    },
+    "rolling_bits": {
+      "seed": 4660,
+      "sparks": 6,
+      "gliders_enabled": true,
+      "output_sha256_by_generation": [
+        "fd8d7674d53f9a4ca7220432a561c142a36980cf7395822d0c9776060d9e2816",
+        "c9f1f49b6acc5aefe5a1e0d35158cded72cdbb04c68b9c8e47c8e6ea64a69607",
+        "1a149ddf85c51fff7782ab10dc7ab3d163d1fd6ea174a68285b8d29fa1d67cf2",
+        "5f104e476889edd3a47cefe207526f2dfc670dc98b1157a548768156f2f20aac",
+        "5144c3ea0eb6201a4e1b60641250ad9347a30761f32d1d84b064c1346641fd2d"
+      ],
+      "pass": true
+    }
+  }
+}

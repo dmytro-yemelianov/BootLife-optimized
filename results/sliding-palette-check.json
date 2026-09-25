@@ -1,0 +1,23 @@
+{
+  "cpu": "pentium",
+  "results": {
+    "padded_deadcount": {
+      "pass": true,
+      "dac_sha256": "30c064e7ec0c23067f287096f5093c0c3e5b8136d355b3590ff95217111b7b9b",
+      "source_sha256": "29b52e94190ad630a6041ef870e3b4ecf12a7c49c60f952cb5adf5eabdb2a940",
+      "image_sha256": "497b9ae4350ef927ac0c3cbc0589202e70c6aed97d8dc4beab5878df667f31cd"
+    },
+    "rolling_bits": {
+      "pass": true,
+      "dac_sha256": "30c064e7ec0c23067f287096f5093c0c3e5b8136d355b3590ff95217111b7b9b",
+      "source_sha256": "5be7beeb4d5cf44e292f1f5d47f68160d6e84221644be9c67afff0362f887532",
+      "image_sha256": "d293a10b768a3a1e381b046c724118d080755ead28964e38740a7b634344e4db"
+    },
+    "sliding_lut_word": {
+      "pass": true,
+      "dac_sha256": "30c064e7ec0c23067f287096f5093c0c3e5b8136d355b3590ff95217111b7b9b",
+      "source_sha256": "f7859177aa3fc9b80ad6f44e93cff7f146af8bf81fce9ac9193fbf222522c289",
+      "image_sha256": "46ab139e3385841349e8c3709f5655807df691cbdb4c4907b31ef0155f802e81"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "package_checksums_checked": 0,
+  "variants": {
+    "sliding": {
+      "default": {
+        "pass": true,
+        "sha256": "1d1c598d05808456408daa7edb4b7c0354ff31b93fe6e21f01ed2a50edab8389"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "4ecc89a70aad67227ac38a7031b2d9baf12b3cae1b999718b3410712205bece3"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "913c7ebdfe5ede331b11d180451635a807a831db55cbaaa2252eb33dcdda5eae"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "d2abdcd1d31ba33682bbe010a5a14eae228b3f862a8a69d298a25beef2975e2f"
+      }
+    },
+    "rolling_sliding": {
+      "default": {
+        "pass": true,
+        "sha256": "4a7d3fa658324472515af9e5be043b531071bd542459a4b58d3e195467b80caa"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "83dce8aa2d0e37a735a81e8d9386fae5b14389258b22359eed64add55a250cad"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "781726a785797545b16923f1965299a1e305c58aec627cebaea47dac5a732fb1"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "1496fc4919208176e27d76df3df688a80a73fff794a8f6d11acc6e019ccb980f"
+      }
+    },
+    "rolling_lut": {
+      "default": {
+        "pass": true,
+        "sha256": "d92198ce4f0b41675c4f521c8ed0df263b4e4424de783a84843ceae5b54a578f"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "bd7e076ab47eac16f839aa555d2e9e3a3b38c198378fb13dd2e1174869022a2e"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "8b2331c8130a8fb74e5dc34b894d243443b3739857a45f2ae016f73611448a4f"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "51211c7083ead4e43e88af64067aadeb42443b0f5900418521d046a58a2c02b8"
+      }
+    },
+    "sliding_lut": {
+      "default": {
+        "pass": true,
+        "sha256": "339effe8164665ccf7c25667152de0a062081afd5f137f9db6ab4b9f8da27be4"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "e369b955bc9bed83267b6eb3879b5d78b5faaf1f3957392559dc170ecddddab1"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "6f0196e506f02135d4f5e591568e642bc48ad78899d4c595e9010a31ea41cbd2"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "4ae1527764a25c8aaff6b8c54e7a2b4e38b4a9fd940c8dd49f23bde482bce2a8"
+      }
+    },
+    "sliding_lut_word": {
+      "default": {
+        "pass": true,
+        "sha256": "bae38e039b4a6d881070deefa3a89e238bf54b66691c1372ce8fc082755004d7"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "46ab139e3385841349e8c3709f5655807df691cbdb4c4907b31ef0155f802e81"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "db3152ec2c9d8042e3cea40b9d99d65bfcec41d954c4bcd6335cf6a00475eef5"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "fd881000103b18c66d8d7c4734d0e067c9960f010080c66b257fe664f2732423"
+      }
+    },
+    "rolling_bits": {
+      "default": {
+        "pass": true,
+        "sha256": "0c7a68ddfbbd124c77fdabb08aa143a97d125e1f853077439bc65d390ecb4ba7"
+      },
+      "seeded": {
+        "pass": true,
+        "sha256": "d293a10b768a3a1e381b046c724118d080755ead28964e38740a7b634344e4db"
+      },
+      "no_injections": {
+        "pass": true,
+        "sha256": "184e6b53bd62295fbdf269ea9302a324a6756eec4062fb67322621f1a603599c"
+      },
+      "gliders_only": {
+        "pass": true,
+        "sha256": "f909762a7afc983b09ce15a67472943775f427e2b223e91c072624155ac49018"
+      }
+    }
+  },
+  "nasm": "NASM version 3.02 compiled on Jun 29 2026",
+  "verifier_sha256": "3fb34fc9a4a5b295c211e9d28918bf75440f9a490f0cf77d980bb9d542349d01"
+}
